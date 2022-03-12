@@ -25,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--#000000);
     cursor: pointer;
 }
 
@@ -34,12 +34,12 @@
 }
 
 .dsmovie-pagination-button:disabled {
-    border: 1px solid #c2c2c2;
+    border: 1px solid #000000;
     cursor: unset;
 }
 
 .dsmovie-pagination-button:disabled svg {
-    filter: none;
+    display: none;
 }
 
 .dsmovie-pagination-container p {
